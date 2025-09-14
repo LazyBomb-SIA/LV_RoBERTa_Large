@@ -65,6 +65,7 @@ Pretkalniņa, L., Rituma, L., Saulīte, B. 等（2016–2018）。关于拉脱�
 ```python
 import spacy
 import numpy as np
+from huggingface_hub import snapshot_download
 
 # Load the pipeline
 # 加载模型流水线
