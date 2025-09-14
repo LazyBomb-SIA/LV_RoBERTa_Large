@@ -68,7 +68,8 @@ import numpy as np
 
 # Load the pipeline
 # 加载模型流水线
-nlp = spacy.load("lv_roberta_large")
+model_dir = snapshot_download(repo_id="JesseHuang922/lv_roberta_large", repo_type="model")
+nlp = spacy.load(model_dir)
 
 # Example text
 # 示例文本
