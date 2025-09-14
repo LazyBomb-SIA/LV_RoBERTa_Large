@@ -103,6 +103,7 @@ The following Python packages are required to run the Latvian XLM-RoBERTa spaCy 
 | **torch**              | 2.8.0           | PyTorch backend for transformers                           | 
 | **tokenizers**         | 0.21.4          | Fast tokenizer support                                                        | 
 | **safetensors**        | 0.6.2           | Secure tensor storage for transformer weights                      | 
+| **huggingface-hub**    | 0.34.4          | Download and manage the model files from the Hugging Face Hub      |
 
 
 ```python
