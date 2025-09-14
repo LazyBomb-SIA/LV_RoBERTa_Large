@@ -90,6 +90,27 @@ Under the following terms:
 ---
 
 ## Usage
+You can either:
+
+1. **Download the model directly from the Hugging Face Hub**  
+   Using `huggingface_hub.snapshot_download`, the model files will be automatically fetched and cached locally.
+
+      ```python
+      import spacy
+      from huggingface_hub import snapshot_download
+      
+      # Load the pipeline
+      model_dir = snapshot_download(repo_id="JesseHuang922/lv_roberta_large", repo_type="model")
+      nlp = spacy.load(model_dir)
+      ```
+
+2. **Install from the pre-built wheel package**  
+   Download the wheel file (**lv_roberta_large-1.0.0-py3-none-any.whl**) and install it into your virtual environment with:
+
+       ```bash
+       pip install lv_roberta_large-1.0.0-py3-none-any.whl
+       
+---
 
 ## Dependencies
 
