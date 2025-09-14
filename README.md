@@ -1,6 +1,9 @@
 # Latvian SpaCy Model: lv_roberta_large
 拉脱维亚语 SpaCy 模型：lv_roberta_large
 
+## Hugging Face Model Repo:
+https://huggingface.co/JesseHuang922/lv_roberta_large
+
 # Acknowledgements
 致谢
 
@@ -61,6 +64,21 @@ Pretkalniņa, L., Rituma, L., Saulīte, B. 等（2016–2018）。关于拉脱�
 
 ## Usage
 ## 使用方法
+
+## Dependencies / 依赖
+
+The following Python packages are required to run the Latvian XLM-RoBERTa spaCy pipeline:
+运行 拉脱维亚语 XLM-RoBERTa spaCy 流水线 需要以下 Python 包：
+
+| Package                | Minimum Version | Notes                                                                                  | 包说明 |
+| ---------------------- | --------------- | -------------------------------------------------------------------------------------- | --- |
+| **spaCy**              | 3.8.7           | Main NLP framework / 核心 NLP 框架                                                         | ✅   |
+| **spacy-transformers** | 1.3.9           | Integrates spaCy with Hugging Face Transformers / spaCy 与 Hugging Face Transformers 集成 | ✅   |
+| **transformers**       | 4.49.0          | Hugging Face Transformers library / Hugging Face Transformers 库                        | ✅   |
+| **torch**              | 2.8.0           | PyTorch backend for transformers / Transformer 的 PyTorch 后端                            | ✅   |
+| **tokenizers**         | 0.21.4          | Fast tokenizer support / 快速分词支持                                                        | ✅   |
+| **safetensors**        | 0.6.2           | Secure tensor storage for transformer weights / Transformer 权重安全存储                     | ✅   |
+
 
 ```python
 import spacy
