@@ -1,0 +1,34 @@
+This model was trained using the Universal Dependencies Latvian Treebank (UD_Latvian-LVTB).
+
+Repository: https://github.com/UniversalDependencies/UD_Latvian-LVTB
+Version: v2.16 (released 2025-05-15)
+
+License:
+  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  https://creativecommons.org/licenses/by-sa/4.0/
+
+Acknowledgments:
+  Latvian UD Treebank is based on the Latvian Treebank (LVTB), created at the 
+  University of Latvia, Institute of Mathematics and Computer Science, Artificial Intelligence Laboratory.
+
+  Contributors include:
+    - Lauma Pretkalniņa
+    - Laura Rituma
+    - Gunta Nešpore-Bērzkalne
+    - Baiba Saulīte
+    - Artūrs Znotiņš
+    - Normunds Grūzītis
+    - and others (see repository for full list)
+
+Funding acknowledgments:
+  Supported by European Regional Development Fund under the grant agreement 
+  No. 1.1.1.1/16/A/219, in synergy with grant agreement No. 1.1.1.2/VIAA/1/16/188.
+  Also supported by State Research Programmes "National Identity", "Digital Resources for the Humanities" 
+  (VPP-IZM-DH-2020/1-0001), and "Research on Modern Latvian Language and Development of Language Technology" 
+  (VPP-LETONIKA-2021/1-0006).
+
+Usage notes:
+  By using this model, you acknowledge that it was trained on data licensed 
+  under CC BY-SA 4.0. You must comply with the terms of that license when using 
+  this model, including providing appropriate attribution and ShareAlike for 
+  derivative works.
