@@ -35,7 +35,7 @@ It includes the following components:
 
 **Model type:** Transformer pipeline (XLM-RoBERTa-large backbone)  
 **Language:** Latvian (lv)  
-**Recommended hardware:** CPU for small-scale use, GPU recommended for faster training  
+**Recommended hardware:** CPU for small-scale use, GPU recommended for faster inference.  
 
 ---
 
@@ -62,6 +62,15 @@ The model was trained on the **Latvian UD Treebank v2.16**, which is derived fro
   - State Research Programme "National Identity"  
   - State Research Programme "Digital Resources for the Humanities" (Grant No. VPP-IZM-DH-2020/1-0001)  
   - State Research Programme "Research on Modern Latvian Language and Development of Language Technology" (Grant No. VPP-LETONIKA-2021/1-0006)  
+
+---
+
+## Special Thanks
+Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback to this project.
+
+- Zhen Pan (developer)
+- Fengdi Huang (developer)
+- 
 
 ---
 
