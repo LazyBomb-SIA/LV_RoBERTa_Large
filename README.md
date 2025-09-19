@@ -15,7 +15,7 @@ metrics:
 # Latvian SpaCy Model: lv_roberta_large
 
 ## Hugging Face Model Repo:
-➡️ https://huggingface.co/JesseHuang922/lv_roberta_large/tree/main
+➡️ https://huggingface.co/JesseHuang922/lv_roberta_large
 
 ---
 
@@ -126,6 +126,10 @@ The following Python packages are required to run the Latvian XLM-RoBERTa spaCy 
 | **safetensors**        | 0.6.2           | Secure tensor storage for transformer weights                      | 
 | **huggingface-hub**    | 0.34.4          | Download and manage the model files from the Hugging Face Hub      |
 
+## Optional but recommended 
+| Package                | Minimum Version | Notes                                                                                  | 
+| ---------------------- | --------------- | -------------------------------------------------------------------------------------- | 
+| **hf-xet**             | 1.1.10          | if you need to download or upload large files from the Hugging Face Hub and use the Xet storage backend     |
 
 ```python
 import spacy
