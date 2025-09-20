@@ -66,7 +66,7 @@ The model was trained on the **Latvian UD Treebank v2.16**, which is derived fro
 ---
 
 ## Special Thanks
-Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback。
+Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback
 
 - Zhen Pan (developer)
 - Fengdi Huang (developer)
