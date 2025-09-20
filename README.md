@@ -15,7 +15,7 @@ metrics:
 # Latvian SpaCy Model: lv_roberta_large
 
 ## Hugging Face Model Repo:
-➡️ https://huggingface.co/JesseHuang922/lv_roberta_large
+https://huggingface.co/JesseHuang922/lv_roberta_large
 
 ---
 
