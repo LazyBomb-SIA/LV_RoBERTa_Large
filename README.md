@@ -66,7 +66,7 @@ The model was trained on the **Latvian UD Treebank v2.16**, which is derived fro
 ---
 
 ## Special Thanks
-Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback to this project.
+Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback。
 
 - Zhen Pan (developer)
 - Fengdi Huang (developer)
@@ -140,6 +140,7 @@ The following Python packages are required to run the Latvian XLM-RoBERTa spaCy 
 | ---------------------- | --------------- | -------------------------------------------------------------------------------------- | 
 | **hf-xet**             | 1.1.10          | if you need to download or upload large files from the Hugging Face Hub and use the Xet storage backend     |
 
+## Install all dependencies with just one command line:
 ```bash
 pip install \
 spacy>=3.8.7 \
